@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.billpageController">
+   <children>
+      <ImageView fitHeight="479.0" fitWidth="726.0" layoutX="-118.0" layoutY="-2.0">
+         <image>
+            <Image url="@../../../../Desktop/photo-1501339847302-ac426a4a7cbb.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="440.0" fitWidth="405.0" layoutX="25.0" layoutY="18.0">
+         <image>
+            <Image url="@../../../../Downloads/Bill_2nd%20idea.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b9814c" height="58.0" layoutX="444.0" layoutY="227.0" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Button fx:id="button_pay" layoutX="438.0" layoutY="227.0" mnemonicParsing="false" onAction="#onclick_pay" prefHeight="58.0" prefWidth="167.0" style="-fx-background-color: transparent;" text="PAY" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="cold_qty" layoutX="199.0" layoutY="263.0" prefHeight="17.0" prefWidth="39.0" textFill="#e4dcdc" />
+      <Label fx:id="cold_amt" layoutX="340.0" layoutY="263.0" textFill="#e4dcdc" />
+      <Label fx:id="latt_amt" layoutX="340.0" layoutY="317.0" textFill="#e4dcdc" />
+      <Label fx:id="hotc_pri" layoutX="262.0" layoutY="373.0" textFill="#e4dcdc" />
+      <Label fx:id="hotc_qty" layoutX="199.0" layoutY="373.0" textFill="#e4dcdc" />
+      <Label fx:id="capp_qty" layoutX="199.0" layoutY="290.0" textFill="#e4dcdc" />
+      <Label fx:id="hotc_amt" layoutX="340.0" layoutY="373.0" textFill="#e4dcdc" />
+      <Label fx:id="moch_pri" layoutX="262.0" layoutY="345.0" textFill="#e4dcdc" />
+      <Label fx:id="capp_amt" layoutX="340.0" layoutY="290.0" textFill="#e4dcdc" />
+      <Label fx:id="capp_pri" layoutX="262.0" layoutY="290.0" textFill="#e4dcdc" />
+      <Label fx:id="moch_qty" layoutX="199.0" layoutY="345.0" textFill="#e4dcdc" />
+      <Label fx:id="latt_pri" layoutX="262.0" layoutY="317.0" textFill="#e4dcdc" />
+      <Label fx:id="latt_qty" layoutX="199.0" layoutY="317.0" textFill="#e4dcdc" />
+      <Label fx:id="cold_pri" layoutX="262.0" layoutY="263.0" textFill="#e4dcdc" />
+      <Label fx:id="moch_amt" layoutX="340.0" layoutY="345.0" textFill="#e4dcdc" />
+      <Label fx:id="lab_total" layoutX="340.0" layoutY="421.0">
+         <font>
+            <Font name="Courier New Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_update" layoutX="438.0" layoutY="305.0" mnemonicParsing="false" onAction="#onclick_update" prefHeight="58.0" prefWidth="167.0" style="-fx-background-color: transparent;" text="update" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.menupageController">
+   <children>
+      <ImageView fitHeight="479.0" fitWidth="726.0" layoutX="-118.0" layoutY="-4.0">
+         <image>
+            <Image url="@../../../../Desktop/photo-1501339847302-ac426a4a7cbb.jpeg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493e41" height="67.0" layoutY="-1.0" opacity="0.64" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493e41" height="67.0" layoutX="159.0" layoutY="-1.0" opacity="0.93" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="152.0" />
+      <Button fx:id="button_cart" layoutX="304.0" layoutY="-1.0" mnemonicParsing="false" onAction="#onclick_cart" opacity="0.88" prefHeight="67.0" prefWidth="152.0" style="-fx-background-color: transparent;" text="CART" textFill="#1b1b1a">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="button_aboutus" layoutY="-1.0" mnemonicParsing="false" onAction="#onclick_aboutus" opacity="0.88" prefHeight="67.0" prefWidth="152.0" style="-fx-background-color: transparent;" text="ABOUT US" textFill="#1b1b1a">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="24.0" />
+         </font>
+         <padding>
+            <Insets left="-5.0" right="-5.0" />
+         </padding>
+      </Button>
+      <Button fx:id="button_logout" layoutX="456.0" layoutY="-2.0" mnemonicParsing="false" onAction="#onclick_logout" opacity="0.88" prefHeight="67.0" prefWidth="152.0" style="-fx-background-color: transparent;" text="LOGOUT" textFill="#1b1b1a">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="159.0" layoutY="-1.0" prefHeight="67.0" prefWidth="152.0" text="    MENU" textFill="#e3dfca" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="381.0" fitWidth="399.0" layoutX="14.0" layoutY="77.0">
+         <image>
+            <Image url="@../../../../Downloads/menu_2nd%20idea.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
